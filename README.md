@@ -47,6 +47,22 @@ As **3 camadas** que tornam um vídeo "profissional" (não slideshow):
 
 Linha de montagem: `link → plano (vpe) → roteiro → voz (Kokoro) → arte (flux2-klein OU SVG auto) → compor (3 camadas) → validar → render 16:9 + 9:16`.
 
+## Integração: `remotion-templates` (peça oficial das camadas 2 e 3)
+
+Os [**remotion-templates**](https://github.com/inematds/remotion-templates) — 81 componentes Remotion (React, só hooks do Remotion, sem CSS keyframes nem libs externas) — são a biblioteca que o Produtor usa para **texto cinético** e **ilustração de tópico**. O mapa é quase 1:1 com as 3 camadas:
+
+| Camada | Categorias do remotion-templates |
+|---|---|
+| **1 · Cinema** | Cinematic (ken-burns, parallax-pan, vignette, film-burn) · Background · Transition |
+| **2 · Texto cinético** | Text (animated-text, typewriter, glitch, slide, pulsing) · Intro/Outro (chapter-title, lower-third, end-card) |
+| **3 · Ilustração do tópico** | Charts & Data (stat-counter, progress, comparison, donut) · Content Animation (animated-list, progress-steps, countdown) |
+
+**O melhor lar do `remotion-templates` é o videoprodutor** (que já o adota como peça oficial) e o
+[**video-plan-editor**](https://github.com/inematds/skill-video-plan-editor) (render nativo Remotion no
+roadmap); o [**pixflow**](https://github.com/inematds/pixflow) é o par complementar perfeito — faz o fundo
+cinema, enquanto o remotion-templates faz o texto/dados por cima (mesmo motor Remotion no pipeline). As
+skills `remotion`/`remotion-best-practices` o aproveitam como referência.
+
 ## Conteúdo
 
 - `skill/videoprodutor/SKILL.md` — gatilho + fluxo + regras de ouro.
