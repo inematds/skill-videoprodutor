@@ -65,5 +65,6 @@ node -v ; ffmpeg -version | head -1 ; which vpe
 - [references/safe-zones.md](references/safe-zones.md) — layout 9:16 p/ redes.
 - [references/fallback-svg.md](references/fallback-svg.md) — imagem padrão, SVG fallback.
 
-> Caso de referência completo e funcional: `videoprodutor/videos/hormozi-12-dicas/` (3 camadas, 16:9 + 9:16, com/sem/SVG).
-> Decisões de arquitetura em `videoprodutor/docs/` (00–08). Motor: HyperFrames hoje; ver `docs/05`.
+> Esta skill é a destilação executável de um caso de referência funcional (vídeo "Hormozi 12 dicas":
+> 3 camadas, 16:9 + 9:16, com imagem e com fallback SVG) e da análise de arquitetura que o originou.
+> Motor de render hoje: HyperFrames.
