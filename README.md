@@ -8,6 +8,8 @@ prompt, imagem, voz, render) numa linha de montagem única. Saída em **16:9 e 9
 **tudo local** (sem chave de API). Imagem (flux2-klein) é o padrão; **SVG é fallback automático** quando não há
 servidor de imagem.
 
+**Versão da Skill:** `v0.2.0` · esquema `vX.yy.xxx` (yy = recurso, xxx = bug) · histórico em [`skill/videoprodutor/CHANGELOG.md`](skill/videoprodutor/CHANGELOG.md).
+
 ## Por que existe
 
 O usuário já tem ~11 skills e 6 motores de vídeo espalhados. **~70% da fábrica já existe**, mas falta a peça que
